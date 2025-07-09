@@ -1,0 +1,227 @@
+.total{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+}
+.outer{
+    padding: 0%;
+    margin: 0%;
+}
+.right{
+    margin-right: 15%;
+}
+.left{
+    margin-left: 15%;
+}
+
+.header{
+    
+    flex: auto;
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    
+}
+
+.logo{
+    font-family: Roboto , Time New Roman;
+    font-size: 18px;
+    width: fit-content;
+    justify-content: flex-start;
+
+}
+
+.linkList{
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    display: flex;
+    color: gray;
+    font-family: 'Roboto', 'Times New Roman', serif;
+    font-size: 14px;
+    padding: 5px;
+    width: fit-content;
+    justify-content: flex-end;
+
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:  22.5vh;
+    width: auto;
+    background-color: #1F2937;
+    
+}
+
+.glaze{
+    flex: auto;
+    font-size: 36px;
+    font-family: 'Roboto', 'Times New Roman', serif;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.oneText{
+    
+    width: 360px;
+    color: #b2b5b0fb;
+}
+
+.paragraph{
+    color: #b2b5b0fb;
+}
+
+.btn1{
+    
+    transition: none;
+    flex: auto;
+    color: #f9faf8;
+    background-color: #3882f6;
+    outline: none;
+    appearance: none;
+    width: 10vh;
+    height: 3vh;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.dice{
+    width: 100px;
+    height: 100px;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:  22.5vh;
+    width: auto;
+    background-color: white;
+}
+
+.random{
+    color: black;
+    
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.boximg{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    outline: black;
+    outline: 2px solid black;
+}
+
+.boxText{
+    flex: auto;
+    width: 100px;
+    color: gray;
+    font-size: 10px;
+}
+
+.three{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 22.5vh;
+    width: auto;
+}
+
+
+.quote{
+     
+    font-size: 20px;
+    font-family: 'Roboto', 'Times New Roman', serif;
+    font-style: italic;
+    color: #1f2937;
+    width: 60%;
+    
+
+
+}
+
+.signature{
+    display: flex;
+    width: 60%;
+    font-weight: bold;
+    justify-content: end;
+    
+} 
+
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:  22.5vh;
+    width: auto;
+    background-color: white;
+}
+
+.blueBox{
+    display: flex;
+    width: 700px;;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.callToAction{
+    color: white;
+    font-family: 'Roboto', 'Times New Roman', serif;
+    font-weight: 550;
+}
+
+.callDescription{
+    color: white;
+    font-weight: 50;
+    font-size: 12px;
+}
+
+.btn2{
+    color: white;
+    display: flex;
+    outline: 2px solid white;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 20px;
+}
+
+.footnote{
+    background-color: #1F2937;
+    height: 5vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+
